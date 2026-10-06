@@ -1,0 +1,3551 @@
+[
+  {
+    "key": "T",
+    "code": "KeyT",
+    "dwell": 110,
+    "flight": 0,
+    "timestamp": 3904
+  },
+  {
+    "key": "Shift",
+    "code": "ShiftLeft",
+    "dwell": 420,
+    "flight": 0,
+    "timestamp": 3680
+  },
+  {
+    "key": "h",
+    "code": "KeyH",
+    "dwell": 112,
+    "flight": 211,
+    "timestamp": 4311
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 135,
+    "flight": 75,
+    "timestamp": 4498
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 48,
+    "flight": 62,
+    "timestamp": 4695
+  },
+  {
+    "key": "q",
+    "code": "KeyQ",
+    "dwell": 72,
+    "flight": 285,
+    "timestamp": 5028
+  },
+  {
+    "key": "u",
+    "code": "KeyU",
+    "dwell": 57,
+    "flight": 355,
+    "timestamp": 5098
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 58,
+    "flight": 208,
+    "timestamp": 5363
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "dwell": 101,
+    "flight": 58,
+    "timestamp": 5479
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 129,
+    "flight": 249,
+    "timestamp": 5829
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 85,
+    "flight": 577,
+    "timestamp": 6535
+  },
+  {
+    "key": "k",
+    "code": "KeyK",
+    "dwell": 58,
+    "flight": 377,
+    "timestamp": 6997
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 54,
+    "flight": 688,
+    "timestamp": 7743
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 44,
+    "flight": 440,
+    "timestamp": 8237
+  },
+  {
+    "key": "b",
+    "code": "KeyB",
+    "dwell": 68,
+    "flight": 488,
+    "timestamp": 8769
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 104,
+    "flight": 75,
+    "timestamp": 8912
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 68,
+    "flight": 63,
+    "timestamp": 9079
+  },
+  {
+    "key": "w",
+    "code": "KeyW",
+    "dwell": 93,
+    "flight": 182,
+    "timestamp": 9329
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 59,
+    "flight": 220,
+    "timestamp": 9642
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 50,
+    "flight": 177,
+    "timestamp": 9878
+  },
+  {
+    "key": "f",
+    "code": "KeyF",
+    "dwell": 103,
+    "flight": 181,
+    "timestamp": 10109
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 52,
+    "flight": 247,
+    "timestamp": 10175
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "dwell": 36,
+    "flight": 171,
+    "timestamp": 10398
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 62,
+    "flight": 69,
+    "timestamp": 10503
+  },
+  {
+    "key": "¥",
+    "code": "IntlYen",
+    "dwell": 33,
+    "flight": 346,
+    "timestamp": 10911
+  },
+  {
+    "key": "¥",
+    "code": "IntlYen",
+    "dwell": 25,
+    "flight": 116,
+    "timestamp": 11060
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 64,
+    "flight": 679,
+    "timestamp": 11764
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 60,
+    "flight": 107,
+    "timestamp": 11935
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 44,
+    "flight": 103,
+    "timestamp": 12098
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 65,
+    "flight": 162,
+    "timestamp": 12304
+  },
+  {
+    "key": "x",
+    "code": "KeyX",
+    "dwell": 96,
+    "flight": 104,
+    "timestamp": 12473
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 56,
+    "flight": 427,
+    "timestamp": 12996
+  },
+  {
+    "key": "j",
+    "code": "KeyJ",
+    "dwell": 50,
+    "flight": 504,
+    "timestamp": 13556
+  },
+  {
+    "key": "u",
+    "code": "KeyU",
+    "dwell": 67,
+    "flight": 343,
+    "timestamp": 13949
+  },
+  {
+    "key": "m",
+    "code": "KeyM",
+    "dwell": 40,
+    "flight": 186,
+    "timestamp": 14202
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 75,
+    "flight": 554,
+    "timestamp": 14796
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 43,
+    "flight": 497,
+    "timestamp": 15368
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 66,
+    "flight": 538,
+    "timestamp": 15949
+  },
+  {
+    "key": "v",
+    "code": "KeyV",
+    "dwell": 77,
+    "flight": 183,
+    "timestamp": 16198
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 162,
+    "flight": 74,
+    "timestamp": 16349
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 108,
+    "flight": 215,
+    "timestamp": 16490
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 87,
+    "flight": 215,
+    "timestamp": 16813
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 70,
+    "flight": 879,
+    "timestamp": 17779
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 85,
+    "flight": 147,
+    "timestamp": 17996
+  },
+  {
+    "key": "t",
+    "code": "KeyT",
+    "dwell": 82,
+    "flight": 306,
+    "timestamp": 18387
+  },
+  {
+    "key": "h",
+    "code": "KeyH",
+    "dwell": 59,
+    "flight": 39,
+    "timestamp": 18508
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 113,
+    "flight": 50,
+    "timestamp": 18617
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 59,
+    "flight": 39,
+    "timestamp": 18769
+  },
+  {
+    "key": "l",
+    "code": "KeyL",
+    "dwell": 70,
+    "flight": 200,
+    "timestamp": 19028
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 46,
+    "flight": 513,
+    "timestamp": 19611
+  },
+  {
+    "key": "z",
+    "code": "KeyZ",
+    "dwell": 99,
+    "flight": 147,
+    "timestamp": 19804
+  },
+  {
+    "key": "y",
+    "code": "KeyY",
+    "dwell": 60,
+    "flight": 175,
+    "timestamp": 20078
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 48,
+    "flight": 355,
+    "timestamp": 20493
+  },
+  {
+    "key": "g",
+    "code": "KeyG",
+    "dwell": 84,
+    "flight": 773,
+    "timestamp": 21314
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 64,
+    "flight": 2,
+    "timestamp": 21400
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 34,
+    "flight": 1100,
+    "timestamp": 22564
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 59,
+    "flight": 83,
+    "timestamp": 22681
+  },
+  {
+    "key": "d",
+    "code": "KeyD",
+    "dwell": 60,
+    "flight": 193,
+    "timestamp": 22933
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 67,
+    "flight": 64,
+    "timestamp": 23057
+  },
+  {
+    "key": "g",
+    "code": "KeyG",
+    "dwell": 54,
+    "flight": 347,
+    "timestamp": 23471
+  },
+  {
+    "key": ".",
+    "code": "Period",
+    "dwell": 40,
+    "flight": 820,
+    "timestamp": 24345
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 55,
+    "flight": 1073,
+    "timestamp": 25458
+  },
+  {
+    "key": "Control",
+    "code": "ControlLeft",
+    "dwell": 642,
+    "flight": 154,
+    "timestamp": 25667
+  },
+  {
+    "key": "T",
+    "code": "KeyT",
+    "dwell": 91,
+    "flight": 390,
+    "timestamp": 26699
+  },
+  {
+    "key": "Shift",
+    "code": "ShiftLeft",
+    "dwell": 483,
+    "flight": 132,
+    "timestamp": 26441
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 85,
+    "flight": 794,
+    "timestamp": 27718
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "dwell": 93,
+    "flight": 121,
+    "timestamp": 27924
+  },
+  {
+    "key": "h",
+    "code": "KeyH",
+    "dwell": 59,
+    "flight": 28,
+    "timestamp": 28045
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 52,
+    "flight": 1120,
+    "timestamp": 29224
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 59,
+    "flight": 95,
+    "timestamp": 29371
+  },
+  {
+    "key": "l",
+    "code": "KeyL",
+    "dwell": 50,
+    "flight": 137,
+    "timestamp": 29567
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 59,
+    "flight": 82,
+    "timestamp": 29699
+  },
+  {
+    "key": "g",
+    "code": "KeyG",
+    "dwell": 67,
+    "flight": 105,
+    "timestamp": 29863
+  },
+  {
+    "key": "y",
+    "code": "KeyY",
+    "dwell": 72,
+    "flight": 213,
+    "timestamp": 30143
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 48,
+    "flight": 813,
+    "timestamp": 31028
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 59,
+    "flight": 179,
+    "timestamp": 31255
+  },
+  {
+    "key": "m",
+    "code": "KeyM",
+    "dwell": 71,
+    "flight": 130,
+    "timestamp": 31444
+  },
+  {
+    "key": "p",
+    "code": "KeyP",
+    "dwell": 72,
+    "flight": 136,
+    "timestamp": 31651
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 574,
+    "flight": 68,
+    "timestamp": 31791
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 96,
+    "flight": 154,
+    "timestamp": 32519
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 82,
+    "flight": 136,
+    "timestamp": 32751
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 40,
+    "flight": 547,
+    "timestamp": 33380
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 131,
+    "flight": 151,
+    "timestamp": 33571
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 89,
+    "flight": 42,
+    "timestamp": 33744
+  },
+  {
+    "key": "p",
+    "code": "KeyP",
+    "dwell": 83,
+    "flight": 6149,
+    "timestamp": 39982
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 114,
+    "flight": 146,
+    "timestamp": 40211
+  },
+  {
+    "key": "l",
+    "code": "KeyL",
+    "dwell": 484,
+    "flight": 170,
+    "timestamp": 40495
+  },
+  {
+    "key": "y",
+    "code": "KeyY",
+    "dwell": 71,
+    "flight": 635,
+    "timestamp": 40960
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 48,
+    "flight": 305,
+    "timestamp": 41336
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 76,
+    "flight": 140,
+    "timestamp": 41524
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 115,
+    "flight": 43,
+    "timestamp": 41643
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 47,
+    "flight": 106,
+    "timestamp": 41864
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 69,
+    "flight": 249,
+    "timestamp": 42160
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 105,
+    "flight": 164,
+    "timestamp": 42393
+  },
+  {
+    "key": "t",
+    "code": "KeyT",
+    "dwell": 66,
+    "flight": 435,
+    "timestamp": 42933
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 60,
+    "flight": 28,
+    "timestamp": 43027
+  },
+  {
+    "key": "f",
+    "code": "KeyF",
+    "dwell": 790,
+    "flight": 471,
+    "timestamp": 43558
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 42,
+    "flight": 1260,
+    "timestamp": 44347
+  },
+  {
+    "key": "t",
+    "code": "KeyT",
+    "dwell": 94,
+    "flight": 85,
+    "timestamp": 44474
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 63,
+    "flight": 69,
+    "timestamp": 44637
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 71,
+    "flight": 61,
+    "timestamp": 44761
+  },
+  {
+    "key": "l",
+    "code": "KeyL",
+    "dwell": 85,
+    "flight": 85,
+    "timestamp": 44917
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 34,
+    "flight": 455,
+    "timestamp": 45457
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 55,
+    "flight": 95,
+    "timestamp": 45586
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 47,
+    "flight": 93,
+    "timestamp": 45734
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 65,
+    "flight": 118,
+    "timestamp": 45899
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "dwell": 357,
+    "flight": 275,
+    "timestamp": 46239
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 32,
+    "flight": 4935,
+    "timestamp": 51531
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 53,
+    "flight": 379,
+    "timestamp": 51942
+  },
+  {
+    "key": "t",
+    "code": "KeyT",
+    "dwell": 91,
+    "flight": 86,
+    "timestamp": 52081
+  },
+  {
+    "key": "l",
+    "code": "KeyL",
+    "dwell": 59,
+    "flight": 45,
+    "timestamp": 52217
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 36,
+    "flight": 365,
+    "timestamp": 52641
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 52,
+    "flight": 111,
+    "timestamp": 52788
+  },
+  {
+    "key": "l",
+    "code": "KeyL",
+    "dwell": 47,
+    "flight": 98,
+    "timestamp": 52938
+  },
+  {
+    "key": "l",
+    "code": "KeyL",
+    "dwell": 71,
+    "flight": 92,
+    "timestamp": 53077
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 56,
+    "flight": 292,
+    "timestamp": 53440
+  },
+  {
+    "key": "g",
+    "code": "KeyG",
+    "dwell": 69,
+    "flight": 185,
+    "timestamp": 53681
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 58,
+    "flight": 442,
+    "timestamp": 54192
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 52,
+    "flight": 61,
+    "timestamp": 54311
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "dwell": 91,
+    "flight": 113,
+    "timestamp": 54476
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 35,
+    "flight": 16,
+    "timestamp": 54583
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 29,
+    "flight": 359,
+    "timestamp": 54977
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 67,
+    "flight": 95,
+    "timestamp": 55101
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 30,
+    "flight": 122,
+    "timestamp": 55290
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 66,
+    "flight": 364,
+    "timestamp": 55684
+  },
+  {
+    "key": "y",
+    "code": "KeyY",
+    "dwell": 45,
+    "flight": 144,
+    "timestamp": 55894
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 577,
+    "flight": 100,
+    "timestamp": 56039
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 43,
+    "flight": 667,
+    "timestamp": 57283
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 55,
+    "flight": 636,
+    "timestamp": 57962
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 43,
+    "flight": 281,
+    "timestamp": 58298
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 30,
+    "flight": 463,
+    "timestamp": 58804
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 43,
+    "flight": 103,
+    "timestamp": 58937
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 46,
+    "flight": 100,
+    "timestamp": 59080
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 85,
+    "flight": 172,
+    "timestamp": 59298
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 46,
+    "flight": 78,
+    "timestamp": 59461
+  },
+  {
+    "key": "b",
+    "code": "KeyB",
+    "dwell": 35,
+    "flight": 535,
+    "timestamp": 60042
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 100,
+    "flight": 114,
+    "timestamp": 60191
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "dwell": 505,
+    "flight": 222,
+    "timestamp": 60513
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 38,
+    "flight": 782,
+    "timestamp": 61800
+  },
+  {
+    "key": "m",
+    "code": "KeyM",
+    "dwell": 57,
+    "flight": 169,
+    "timestamp": 62007
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 48,
+    "flight": 582,
+    "timestamp": 62646
+  },
+  {
+    "key": "p",
+    "code": "KeyP",
+    "dwell": 62,
+    "flight": 196,
+    "timestamp": 62890
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 110,
+    "flight": 24,
+    "timestamp": 62976
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 112,
+    "flight": 98,
+    "timestamp": 63050
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 104,
+    "flight": 100,
+    "timestamp": 63262
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 40,
+    "flight": 180,
+    "timestamp": 63342
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 52,
+    "flight": 101,
+    "timestamp": 63483
+  },
+  {
+    "key": "l",
+    "code": "KeyL",
+    "dwell": 59,
+    "flight": 218,
+    "timestamp": 63753
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 67,
+    "flight": 91,
+    "timestamp": 63903
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 30,
+    "flight": 203,
+    "timestamp": 64173
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "dwell": 13,
+    "flight": 336,
+    "timestamp": 64539
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 33,
+    "flight": 397,
+    "timestamp": 64949
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 50,
+    "flight": 297,
+    "timestamp": 65279
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 15,
+    "flight": 806,
+    "timestamp": 66135
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 47,
+    "flight": 183,
+    "timestamp": 66333
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 37,
+    "flight": 139,
+    "timestamp": 66519
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 41,
+    "flight": 127,
+    "timestamp": 66683
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 48,
+    "flight": 111,
+    "timestamp": 66835
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 51,
+    "flight": 109,
+    "timestamp": 66992
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 45,
+    "flight": 113,
+    "timestamp": 67156
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 54,
+    "flight": 201,
+    "timestamp": 67402
+  },
+  {
+    "key": "p",
+    "code": "KeyP",
+    "dwell": 58,
+    "flight": 514,
+    "timestamp": 67970
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 184,
+    "flight": 100,
+    "timestamp": 68128
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 165,
+    "flight": 189,
+    "timestamp": 68217
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 123,
+    "flight": 68,
+    "timestamp": 68450
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 55,
+    "flight": 187,
+    "timestamp": 68569
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 75,
+    "flight": 106,
+    "timestamp": 68730
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 66,
+    "flight": 438,
+    "timestamp": 69243
+  },
+  {
+    "key": "l",
+    "code": "KeyL",
+    "dwell": 52,
+    "flight": 59,
+    "timestamp": 69368
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 37,
+    "flight": 171,
+    "timestamp": 69591
+  },
+  {
+    "key": "u",
+    "code": "KeyU",
+    "dwell": 41,
+    "flight": 168,
+    "timestamp": 69588
+  },
+  {
+    "key": "z",
+    "code": "KeyZ",
+    "dwell": 84,
+    "flight": 49,
+    "timestamp": 69678
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 56,
+    "flight": 140,
+    "timestamp": 69902
+  },
+  {
+    "key": "d",
+    "code": "KeyD",
+    "dwell": 116,
+    "flight": 195,
+    "timestamp": 70153
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 57,
+    "flight": 141,
+    "timestamp": 70410
+  },
+  {
+    "key": "t",
+    "code": "KeyT",
+    "dwell": 82,
+    "flight": 473,
+    "timestamp": 70940
+  },
+  {
+    "key": "h",
+    "code": "KeyH",
+    "dwell": 47,
+    "flight": 27,
+    "timestamp": 71049
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 37,
+    "flight": 363,
+    "timestamp": 71459
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 69,
+    "flight": 106,
+    "timestamp": 71602
+  },
+  {
+    "key": "w",
+    "code": "KeyW",
+    "dwell": 91,
+    "flight": 239,
+    "timestamp": 71910
+  },
+  {
+    "key": "j",
+    "code": "KeyJ",
+    "dwell": 28,
+    "flight": 50,
+    "timestamp": 72051
+  },
+  {
+    "key": "h",
+    "code": "KeyH",
+    "dwell": 32,
+    "flight": 48,
+    "timestamp": 72049
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 72,
+    "flight": 103,
+    "timestamp": 72184
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 49,
+    "flight": 99,
+    "timestamp": 72355
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 50,
+    "flight": 204,
+    "timestamp": 72608
+  },
+  {
+    "key": "t",
+    "code": "KeyT",
+    "dwell": 85,
+    "flight": 522,
+    "timestamp": 73180
+  },
+  {
+    "key": "y",
+    "code": "KeyY",
+    "dwell": 67,
+    "flight": 101,
+    "timestamp": 73366
+  },
+  {
+    "key": "p",
+    "code": "KeyP",
+    "dwell": 52,
+    "flight": 246,
+    "timestamp": 73679
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 47,
+    "flight": 262,
+    "timestamp": 73993
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 63,
+    "flight": 66,
+    "timestamp": 74106
+  },
+  {
+    "key": "g",
+    "code": "KeyG",
+    "dwell": 65,
+    "flight": 70,
+    "timestamp": 74239
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 53,
+    "flight": 99,
+    "timestamp": 74403
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 66,
+    "flight": 330,
+    "timestamp": 74786
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 48,
+    "flight": 285,
+    "timestamp": 75137
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 39,
+    "flight": 230,
+    "timestamp": 75415
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 60,
+    "flight": 85,
+    "timestamp": 75539
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 41,
+    "flight": 158,
+    "timestamp": 75757
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 75,
+    "flight": 92,
+    "timestamp": 75890
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 35,
+    "flight": 308,
+    "timestamp": 76273
+  },
+  {
+    "key": "p",
+    "code": "KeyP",
+    "dwell": 61,
+    "flight": 1636,
+    "timestamp": 77944
+  },
+  {
+    "key": "h",
+    "code": "KeyH",
+    "dwell": 222,
+    "flight": 164,
+    "timestamp": 78169
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 120,
+    "flight": 1076,
+    "timestamp": 79467
+  },
+  {
+    "key": "l",
+    "code": "KeyL",
+    "dwell": 60,
+    "flight": 1195,
+    "timestamp": 79586
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 39,
+    "flight": 152,
+    "timestamp": 79798
+  },
+  {
+    "key": "b",
+    "code": "KeyB",
+    "dwell": 51,
+    "flight": 193,
+    "timestamp": 80030
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 44,
+    "flight": 292,
+    "timestamp": 80373
+  },
+  {
+    "key": "k",
+    "code": "KeyK",
+    "dwell": 257,
+    "flight": 207,
+    "timestamp": 80624
+  },
+  {
+    "key": "b",
+    "code": "KeyB",
+    "dwell": 403,
+    "flight": 433,
+    "timestamp": 81314
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 51,
+    "flight": 351,
+    "timestamp": 82068
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 167,
+    "flight": 79,
+    "timestamp": 82198
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 271,
+    "flight": 244,
+    "timestamp": 82363
+  },
+  {
+    "key": "d",
+    "code": "KeyD",
+    "dwell": 100,
+    "flight": 266,
+    "timestamp": 82631
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 42,
+    "flight": 163,
+    "timestamp": 82894
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 105,
+    "flight": 618,
+    "timestamp": 83554
+  },
+  {
+    "key": "v",
+    "code": "KeyV",
+    "dwell": 42,
+    "flight": 67,
+    "timestamp": 83726
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 108,
+    "flight": 200,
+    "timestamp": 83968
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 74,
+    "flight": 369,
+    "timestamp": 84445
+  },
+  {
+    "key": "y",
+    "code": "KeyY",
+    "dwell": 53,
+    "flight": 92,
+    "timestamp": 84611
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 47,
+    "flight": 1011,
+    "timestamp": 85675
+  },
+  {
+    "key": "p",
+    "code": "KeyP",
+    "dwell": 62,
+    "flight": 330,
+    "timestamp": 86052
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 135,
+    "flight": 96,
+    "timestamp": 86210
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 126,
+    "flight": 192,
+    "timestamp": 86306
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 52,
+    "flight": 122,
+    "timestamp": 86554
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 14,
+    "flight": 318,
+    "timestamp": 86924
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 87,
+    "flight": 173,
+    "timestamp": 87111
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 58,
+    "flight": 18,
+    "timestamp": 87216
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 53,
+    "flight": 104,
+    "timestamp": 87378
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 53,
+    "flight": 101,
+    "timestamp": 87532
+  },
+  {
+    "key": "d",
+    "code": "KeyD",
+    "dwell": 109,
+    "flight": 68,
+    "timestamp": 87653
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 92,
+    "flight": 163,
+    "timestamp": 87748
+  },
+  {
+    "key": "v",
+    "code": "KeyV",
+    "dwell": 96,
+    "flight": 201,
+    "timestamp": 88041
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 116,
+    "flight": 21,
+    "timestamp": 88158
+  },
+  {
+    "key": "l",
+    "code": "KeyL",
+    "dwell": 56,
+    "flight": 89,
+    "timestamp": 88363
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 49,
+    "flight": 111,
+    "timestamp": 88530
+  },
+  {
+    "key": "p",
+    "code": "KeyP",
+    "dwell": 129,
+    "flight": 290,
+    "timestamp": 88869
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 74,
+    "flight": 246,
+    "timestamp": 89244
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 84,
+    "flight": 293,
+    "timestamp": 89611
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 65,
+    "flight": 312,
+    "timestamp": 90007
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 53,
+    "flight": 55,
+    "timestamp": 90127
+  },
+  {
+    "key": "u",
+    "code": "KeyU",
+    "dwell": 50,
+    "flight": 366,
+    "timestamp": 90546
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 838,
+    "flight": 113,
+    "timestamp": 90709
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 52,
+    "flight": 732,
+    "timestamp": 92279
+  },
+  {
+    "key": "d",
+    "code": "KeyD",
+    "dwell": 91,
+    "flight": 250,
+    "timestamp": 92581
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 51,
+    "flight": 300,
+    "timestamp": 92972
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "dwell": 83,
+    "flight": 83,
+    "timestamp": 93106
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 82,
+    "flight": 33,
+    "timestamp": 93222
+  },
+  {
+    "key": "d",
+    "code": "KeyD",
+    "dwell": 128,
+    "flight": 232,
+    "timestamp": 93536
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 508,
+    "flight": 52,
+    "timestamp": 93716
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 42,
+    "flight": 232,
+    "timestamp": 94456
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 74,
+    "flight": 246,
+    "timestamp": 94744
+  },
+  {
+    "key": "h",
+    "code": "KeyH",
+    "dwell": 47,
+    "flight": 37,
+    "timestamp": 94855
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 72,
+    "flight": 52,
+    "timestamp": 94954
+  },
+  {
+    "key": "p",
+    "code": "KeyP",
+    "dwell": 68,
+    "flight": 184,
+    "timestamp": 95210
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 71,
+    "flight": 91,
+    "timestamp": 95369
+  },
+  {
+    "key": "d",
+    "code": "KeyD",
+    "dwell": 91,
+    "flight": 124,
+    "timestamp": 95564
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 54,
+    "flight": 84,
+    "timestamp": 95739
+  },
+  {
+    "key": "b",
+    "code": "KeyB",
+    "dwell": 53,
+    "flight": 245,
+    "timestamp": 96038
+  },
+  {
+    "key": "y",
+    "code": "KeyY",
+    "dwell": 49,
+    "flight": 144,
+    "timestamp": 96235
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 62,
+    "flight": 151,
+    "timestamp": 96435
+  },
+  {
+    "key": "h",
+    "code": "KeyH",
+    "dwell": 49,
+    "flight": 529,
+    "timestamp": 97026
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 74,
+    "flight": 71,
+    "timestamp": 97146
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 58,
+    "flight": 50,
+    "timestamp": 97270
+  },
+  {
+    "key": "d",
+    "code": "KeyD",
+    "dwell": 79,
+    "flight": 126,
+    "timestamp": 97454
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 48,
+    "flight": 96,
+    "timestamp": 97629
+  },
+  {
+    "key": "z",
+    "code": "KeyZ",
+    "dwell": 50,
+    "flight": 218,
+    "timestamp": 97895
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 44,
+    "flight": 281,
+    "timestamp": 98226
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 65,
+    "flight": 87,
+    "timestamp": 98357
+  },
+  {
+    "key": "z",
+    "code": "KeyZ",
+    "dwell": 83,
+    "flight": 122,
+    "timestamp": 98544
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 56,
+    "flight": 3,
+    "timestamp": 98630
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 91,
+    "flight": 188,
+    "timestamp": 98874
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 59,
+    "flight": 311,
+    "timestamp": 99276
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 83,
+    "flight": 245,
+    "timestamp": 99580
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 37,
+    "flight": 600,
+    "timestamp": 100263
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 39,
+    "flight": 107,
+    "timestamp": 100407
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 52,
+    "flight": 98,
+    "timestamp": 100544
+  },
+  {
+    "key": "z",
+    "code": "KeyZ",
+    "dwell": 58,
+    "flight": 287,
+    "timestamp": 100883
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 43,
+    "flight": 351,
+    "timestamp": 101292
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 78,
+    "flight": 198,
+    "timestamp": 101533
+  },
+  {
+    "key": "z",
+    "code": "KeyZ",
+    "dwell": 74,
+    "flight": 25,
+    "timestamp": 101636
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 85,
+    "flight": 145,
+    "timestamp": 101855
+  },
+  {
+    "key": ",",
+    "code": "Comma",
+    "dwell": 68,
+    "flight": 1220,
+    "timestamp": 103160
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 57,
+    "flight": 749,
+    "timestamp": 103977
+  },
+  {
+    "key": "f",
+    "code": "KeyF",
+    "dwell": 108,
+    "flight": 175,
+    "timestamp": 104209
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 58,
+    "flight": 257,
+    "timestamp": 104291
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 66,
+    "flight": 97,
+    "timestamp": 104446
+  },
+  {
+    "key": "g",
+    "code": "KeyG",
+    "dwell": 51,
+    "flight": 206,
+    "timestamp": 104718
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 123,
+    "flight": 60,
+    "timestamp": 104829
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 80,
+    "flight": 156,
+    "timestamp": 104925
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 39,
+    "flight": 193,
+    "timestamp": 105198
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 86,
+    "flight": 258,
+    "timestamp": 105495
+  },
+  {
+    "key": "g",
+    "code": "KeyG",
+    "dwell": 62,
+    "flight": 373,
+    "timestamp": 105954
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 66,
+    "flight": 372,
+    "timestamp": 106388
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 27,
+    "flight": 1151,
+    "timestamp": 107605
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 72,
+    "flight": 584,
+    "timestamp": 108216
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 55,
+    "flight": 41,
+    "timestamp": 108329
+  },
+  {
+    "key": "d",
+    "code": "KeyD",
+    "dwell": 76,
+    "flight": 69,
+    "timestamp": 108453
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 45,
+    "flight": 55,
+    "timestamp": 108584
+  },
+  {
+    "key": "m",
+    "code": "KeyM",
+    "dwell": 64,
+    "flight": 233,
+    "timestamp": 108862
+  },
+  {
+    "key": "u",
+    "code": "KeyU",
+    "dwell": 66,
+    "flight": 100,
+    "timestamp": 109026
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 787,
+    "flight": 83,
+    "timestamp": 109175
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 43,
+    "flight": 212,
+    "timestamp": 110174
+  },
+  {
+    "key": "m",
+    "code": "KeyM",
+    "dwell": 52,
+    "flight": 134,
+    "timestamp": 110351
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 102,
+    "flight": 44,
+    "timestamp": 110447
+  },
+  {
+    "key": "m",
+    "code": "KeyM",
+    "dwell": 232,
+    "flight": 84,
+    "timestamp": 110633
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 415,
+    "flight": 149,
+    "timestamp": 111014
+  },
+  {
+    "key": "y",
+    "code": "KeyY",
+    "dwell": 70,
+    "flight": 558,
+    "timestamp": 111423
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 72,
+    "flight": 625,
+    "timestamp": 112118
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 79,
+    "flight": 695,
+    "timestamp": 112885
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 56,
+    "flight": 22,
+    "timestamp": 112986
+  },
+  {
+    "key": "m",
+    "code": "KeyM",
+    "dwell": 55,
+    "flight": 110,
+    "timestamp": 113152
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 70,
+    "flight": 63,
+    "timestamp": 113270
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 50,
+    "flight": 67,
+    "timestamp": 113407
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 64,
+    "flight": 287,
+    "timestamp": 113744
+  },
+  {
+    "key": "w",
+    "code": "KeyW",
+    "dwell": 32,
+    "flight": 72,
+    "timestamp": 113880
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 52,
+    "flight": 408,
+    "timestamp": 114320
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 53,
+    "flight": 275,
+    "timestamp": 114647
+  },
+  {
+    "key": "w",
+    "code": "KeyW",
+    "dwell": 69,
+    "flight": 187,
+    "timestamp": 114887
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 84,
+    "flight": 66,
+    "timestamp": 115022
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 93,
+    "flight": 104,
+    "timestamp": 115210
+  },
+  {
+    "key": "d",
+    "code": "KeyD",
+    "dwell": 9,
+    "flight": 270,
+    "timestamp": 115573
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 69,
+    "flight": 625,
+    "timestamp": 116207
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 42,
+    "flight": 746,
+    "timestamp": 117022
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 85,
+    "flight": 100,
+    "timestamp": 117164
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 153,
+    "flight": 84,
+    "timestamp": 117333
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 116,
+    "flight": 218,
+    "timestamp": 117467
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 42,
+    "flight": 84,
+    "timestamp": 117667
+  },
+  {
+    "key": "t",
+    "code": "KeyT",
+    "dwell": 67,
+    "flight": 436,
+    "timestamp": 118145
+  },
+  {
+    "key": "y",
+    "code": "KeyY",
+    "dwell": 56,
+    "flight": 37,
+    "timestamp": 118249
+  },
+  {
+    "key": "p",
+    "code": "KeyP",
+    "dwell": 110,
+    "flight": 167,
+    "timestamp": 118472
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 58,
+    "flight": 196,
+    "timestamp": 118778
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 60,
+    "flight": 377,
+    "timestamp": 119213
+  },
+  {
+    "key": "d",
+    "code": "KeyD",
+    "dwell": 85,
+    "flight": 44,
+    "timestamp": 119317
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 44,
+    "flight": 148,
+    "timestamp": 119550
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 56,
+    "flight": 271,
+    "timestamp": 119865
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 39,
+    "flight": 91,
+    "timestamp": 120012
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 56,
+    "flight": 116,
+    "timestamp": 120167
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 134,
+    "flight": 143,
+    "timestamp": 120366
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 110,
+    "flight": 8,
+    "timestamp": 120508
+  },
+  {
+    "key": "p",
+    "code": "KeyP",
+    "dwell": 65,
+    "flight": 129,
+    "timestamp": 120747
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 48,
+    "flight": 135,
+    "timestamp": 120947
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 55,
+    "flight": 382,
+    "timestamp": 121377
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 61,
+    "flight": 270,
+    "timestamp": 121702
+  },
+  {
+    "key": "d",
+    "code": "KeyD",
+    "dwell": 81,
+    "flight": 65,
+    "timestamp": 121828
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 50,
+    "flight": 650,
+    "timestamp": 122559
+  },
+  {
+    "key": "b",
+    "code": "KeyB",
+    "dwell": 51,
+    "flight": 264,
+    "timestamp": 122873
+  },
+  {
+    "key": "u",
+    "code": "KeyU",
+    "dwell": 69,
+    "flight": 119,
+    "timestamp": 123043
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 106,
+    "flight": 480,
+    "timestamp": 123592
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 85,
+    "flight": 144,
+    "timestamp": 123842
+  },
+  {
+    "key": "t",
+    "code": "KeyT",
+    "dwell": 77,
+    "flight": 137,
+    "timestamp": 124064
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 96,
+    "flight": 224,
+    "timestamp": 124365
+  },
+  {
+    "key": ",",
+    "code": "Comma",
+    "dwell": 51,
+    "flight": 963,
+    "timestamp": 125424
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 41,
+    "flight": 150,
+    "timestamp": 125625
+  },
+  {
+    "key": "w",
+    "code": "KeyW",
+    "dwell": 65,
+    "flight": 179,
+    "timestamp": 125845
+  },
+  {
+    "key": "h",
+    "code": "KeyH",
+    "dwell": 57,
+    "flight": 27,
+    "timestamp": 125937
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 55,
+    "flight": 107,
+    "timestamp": 126101
+  },
+  {
+    "key": "l",
+    "code": "KeyL",
+    "dwell": 72,
+    "flight": 118,
+    "timestamp": 126274
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 72,
+    "flight": 22,
+    "timestamp": 126368
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 51,
+    "flight": 93,
+    "timestamp": 126533
+  },
+  {
+    "key": "p",
+    "code": "KeyP",
+    "dwell": 67,
+    "flight": 1252,
+    "timestamp": 127836
+  },
+  {
+    "key": "u",
+    "code": "KeyU",
+    "dwell": 75,
+    "flight": 188,
+    "timestamp": 128091
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 57,
+    "flight": 100,
+    "timestamp": 128266
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "dwell": 560,
+    "flight": 121,
+    "timestamp": 128444
+  },
+  {
+    "key": "u",
+    "code": "KeyU",
+    "dwell": 39,
+    "flight": 96,
+    "timestamp": 129100
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 46,
+    "flight": 968,
+    "timestamp": 130107
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 53,
+    "flight": 111,
+    "timestamp": 130264
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 39,
+    "flight": 529,
+    "timestamp": 130846
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 52,
+    "flight": 108,
+    "timestamp": 130993
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 34,
+    "flight": 101,
+    "timestamp": 131146
+  },
+  {
+    "key": "t",
+    "code": "KeyT",
+    "dwell": 397,
+    "flight": 445,
+    "timestamp": 131625
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 43,
+    "flight": 613,
+    "timestamp": 132635
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 73,
+    "flight": 92,
+    "timestamp": 132770
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 51,
+    "flight": 55,
+    "timestamp": 132898
+  },
+  {
+    "key": "d",
+    "code": "KeyD",
+    "dwell": 86,
+    "flight": 43,
+    "timestamp": 132992
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 51,
+    "flight": 68,
+    "timestamp": 133146
+  },
+  {
+    "key": "u",
+    "code": "KeyU",
+    "dwell": 51,
+    "flight": 399,
+    "timestamp": 133596
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 67,
+    "flight": 76,
+    "timestamp": 133723
+  },
+  {
+    "key": "f",
+    "code": "KeyF",
+    "dwell": 106,
+    "flight": 174,
+    "timestamp": 133964
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 97,
+    "flight": 55,
+    "timestamp": 134125
+  },
+  {
+    "key": "m",
+    "code": "KeyM",
+    "dwell": 1354,
+    "flight": 134,
+    "timestamp": 134356
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 35,
+    "flight": 305,
+    "timestamp": 136015
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 58,
+    "flight": 218,
+    "timestamp": 136268
+  },
+  {
+    "key": "w",
+    "code": "KeyW",
+    "dwell": 60,
+    "flight": 1,
+    "timestamp": 136327
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 38,
+    "flight": 707,
+    "timestamp": 137094
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 55,
+    "flight": 82,
+    "timestamp": 137214
+  },
+  {
+    "key": "w",
+    "code": "KeyW",
+    "dwell": 87,
+    "flight": 50,
+    "timestamp": 137319
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 669,
+    "flight": 51,
+    "timestamp": 137457
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 90,
+    "flight": 344,
+    "timestamp": 138470
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 48,
+    "flight": 199,
+    "timestamp": 138759
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 62,
+    "flight": 156,
+    "timestamp": 138963
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 63,
+    "flight": 57,
+    "timestamp": 139082
+  },
+  {
+    "key": "t",
+    "code": "KeyT",
+    "dwell": 63,
+    "flight": 453,
+    "timestamp": 139598
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 81,
+    "flight": 129,
+    "timestamp": 139790
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 91,
+    "flight": 81,
+    "timestamp": 139952
+  },
+  {
+    "key": "d",
+    "code": "KeyD",
+    "dwell": 103,
+    "flight": 268,
+    "timestamp": 140311
+  },
+  {
+    "key": "u",
+    "code": "KeyU",
+    "dwell": 67,
+    "flight": 45,
+    "timestamp": 140459
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "dwell": 108,
+    "flight": 59,
+    "timestamp": 140585
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 110,
+    "flight": 64,
+    "timestamp": 140757
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 43,
+    "flight": 97,
+    "timestamp": 140964
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 65,
+    "flight": 172,
+    "timestamp": 141179
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 67,
+    "flight": 31,
+    "timestamp": 141275
+  },
+  {
+    "key": "t",
+    "code": "KeyT",
+    "dwell": 85,
+    "flight": 155,
+    "timestamp": 141497
+  },
+  {
+    "key": "u",
+    "code": "KeyU",
+    "dwell": 58,
+    "flight": 27,
+    "timestamp": 141609
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 77,
+    "flight": 113,
+    "timestamp": 141780
+  },
+  {
+    "key": "l",
+    "code": "KeyL",
+    "dwell": 55,
+    "flight": 88,
+    "timestamp": 141945
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 46,
+    "flight": 849,
+    "timestamp": 142849
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 42,
+    "flight": 93,
+    "timestamp": 142988
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 43,
+    "flight": 101,
+    "timestamp": 143131
+  },
+  {
+    "key": "u",
+    "code": "KeyU",
+    "dwell": 53,
+    "flight": 574,
+    "timestamp": 143748
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 70,
+    "flight": 136,
+    "timestamp": 143937
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 69,
+    "flight": 187,
+    "timestamp": 144194
+  },
+  {
+    "key": "l",
+    "code": "KeyL",
+    "dwell": 59,
+    "flight": 42,
+    "timestamp": 144305
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 51,
+    "flight": 820,
+    "timestamp": 145184
+  },
+  {
+    "key": "m",
+    "code": "KeyM",
+    "dwell": 56,
+    "flight": 314,
+    "timestamp": 145549
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 47,
+    "flight": 112,
+    "timestamp": 145717
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "dwell": 97,
+    "flight": 164,
+    "timestamp": 145928
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 102,
+    "flight": 124,
+    "timestamp": 146149
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 63,
+    "flight": 77,
+    "timestamp": 146328
+  },
+  {
+    "key": "-",
+    "code": "Minus",
+    "dwell": 64,
+    "flight": 1247,
+    "timestamp": 147638
+  },
+  {
+    "key": "p",
+    "code": "KeyP",
+    "dwell": 64,
+    "flight": 1401,
+    "timestamp": 149103
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 63,
+    "flight": 61,
+    "timestamp": 149228
+  },
+  {
+    "key": "u",
+    "code": "KeyU",
+    "dwell": 64,
+    "flight": 1259,
+    "timestamp": 150550
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 78,
+    "flight": 66,
+    "timestamp": 150680
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 67,
+    "flight": 119,
+    "timestamp": 150877
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 133,
+    "flight": 267,
+    "timestamp": 151211
+  },
+  {
+    "key": ".",
+    "code": "Period",
+    "dwell": 44,
+    "flight": 587,
+    "timestamp": 151931
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 40,
+    "flight": 395,
+    "timestamp": 152370
+  },
+  {
+    "key": "b",
+    "code": "KeyB",
+    "dwell": 51,
+    "flight": 297,
+    "timestamp": 152707
+  },
+  {
+    "key": "y",
+    "code": "KeyY",
+    "dwell": 58,
+    "flight": 173,
+    "timestamp": 152931
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 40,
+    "flight": 407,
+    "timestamp": 153396
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 137,
+    "flight": 552,
+    "timestamp": 153988
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 95,
+    "flight": 675,
+    "timestamp": 154111
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "dwell": 98,
+    "flight": 132,
+    "timestamp": 154338
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 61,
+    "flight": 18,
+    "timestamp": 154454
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 95,
+    "flight": 50,
+    "timestamp": 154565
+  },
+  {
+    "key": "d",
+    "code": "KeyD",
+    "dwell": 172,
+    "flight": 128,
+    "timestamp": 154788
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 45,
+    "flight": 297,
+    "timestamp": 154957
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 60,
+    "flight": 66,
+    "timestamp": 155068
+  },
+  {
+    "key": "g",
+    "code": "KeyG",
+    "dwell": 106,
+    "flight": 33,
+    "timestamp": 155161
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 53,
+    "flight": 58,
+    "timestamp": 155325
+  },
+  {
+    "key": "t",
+    "code": "KeyT",
+    "dwell": 31,
+    "flight": 377,
+    "timestamp": 155755
+  },
+  {
+    "key": "h",
+    "code": "KeyH",
+    "dwell": 34,
+    "flight": 104,
+    "timestamp": 155890
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 101,
+    "flight": 592,
+    "timestamp": 156516
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 95,
+    "flight": 256,
+    "timestamp": 156873
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 95,
+    "flight": 138,
+    "timestamp": 157106
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 44,
+    "flight": 690,
+    "timestamp": 157891
+  },
+  {
+    "key": "m",
+    "code": "KeyM",
+    "dwell": 64,
+    "flight": 200,
+    "timestamp": 158135
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 55,
+    "flight": 91,
+    "timestamp": 158290
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "dwell": 73,
+    "flight": 457,
+    "timestamp": 158802
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 83,
+    "flight": 137,
+    "timestamp": 159012
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 54,
+    "flight": 50,
+    "timestamp": 159145
+  },
+  {
+    "key": "-",
+    "code": "Minus",
+    "dwell": 68,
+    "flight": 601,
+    "timestamp": 159800
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 110,
+    "flight": 1579,
+    "timestamp": 161447
+  },
+  {
+    "key": "h",
+    "code": "KeyH",
+    "dwell": 56,
+    "flight": 784,
+    "timestamp": 162341
+  },
+  {
+    "key": "y",
+    "code": "KeyY",
+    "dwell": 79,
+    "flight": 308,
+    "timestamp": 162705
+  },
+  {
+    "key": "t",
+    "code": "KeyT",
+    "dwell": 384,
+    "flight": 345,
+    "timestamp": 163129
+  },
+  {
+    "key": "s",
+    "code": "KeyS",
+    "dwell": 80,
+    "flight": 123,
+    "timestamp": 163636
+  },
+  {
+    "key": ".",
+    "code": "Period",
+    "dwell": 53,
+    "flight": 798,
+    "timestamp": 164514
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 53,
+    "flight": 195,
+    "timestamp": 164762
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 73,
+    "flight": 382,
+    "timestamp": 165197
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 63,
+    "flight": 49,
+    "timestamp": 165319
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 47,
+    "flight": 206,
+    "timestamp": 165588
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 87,
+    "flight": 523,
+    "timestamp": 166158
+  },
+  {
+    "key": "u",
+    "code": "KeyU",
+    "dwell": 74,
+    "flight": 189,
+    "timestamp": 166434
+  },
+  {
+    "key": "t",
+    "code": "KeyT",
+    "dwell": 79,
+    "flight": 94,
+    "timestamp": 166602
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 59,
+    "flight": 72,
+    "timestamp": 166753
+  },
+  {
+    "key": "m",
+    "code": "KeyM",
+    "dwell": 484,
+    "flight": 169,
+    "timestamp": 166981
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 32,
+    "flight": 652,
+    "timestamp": 167464
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 52,
+    "flight": 205,
+    "timestamp": 167701
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 578,
+    "flight": 100,
+    "timestamp": 167853
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 52,
+    "flight": 220,
+    "timestamp": 168651
+  },
+  {
+    "key": "d",
+    "code": "KeyD",
+    "dwell": 93,
+    "flight": 334,
+    "timestamp": 169037
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 84,
+    "flight": 56,
+    "timestamp": 169186
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "dwell": 92,
+    "flight": 124,
+    "timestamp": 169394
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 521,
+    "flight": 18,
+    "timestamp": 169504
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 3,
+    "flight": 537,
+    "timestamp": 170023
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 36,
+    "flight": 118,
+    "timestamp": 170144
+  },
+  {
+    "key": "v",
+    "code": "KeyV",
+    "dwell": 105,
+    "flight": 290,
+    "timestamp": 170470
+  },
+  {
+    "key": "i",
+    "code": "KeyI",
+    "dwell": 63,
+    "flight": 30,
+    "timestamp": 170605
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 68,
+    "flight": 68,
+    "timestamp": 170736
+  },
+  {
+    "key": "Backspace",
+    "code": "Backspace",
+    "dwell": 54,
+    "flight": 486,
+    "timestamp": 171290
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "dwell": 127,
+    "flight": 73,
+    "timestamp": 171417
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 95,
+    "flight": 22,
+    "timestamp": 171566
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 40,
+    "flight": 914,
+    "timestamp": 172575
+  },
+  {
+    "key": "c",
+    "code": "KeyC",
+    "dwell": 136,
+    "flight": 238,
+    "timestamp": 172853
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 116,
+    "flight": 37,
+    "timestamp": 173026
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 43,
+    "flight": 10,
+    "timestamp": 173152
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 31,
+    "flight": 143,
+    "timestamp": 173338
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 158,
+    "flight": 191,
+    "timestamp": 173560
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 143,
+    "flight": 300,
+    "timestamp": 173669
+  },
+  {
+    "key": "p",
+    "code": "KeyP",
+    "dwell": 49,
+    "flight": 29,
+    "timestamp": 173841
+  },
+  {
+    "key": "r",
+    "code": "KeyR",
+    "dwell": 835,
+    "flight": 82,
+    "timestamp": 173972
+  },
+  {
+    "key": "o",
+    "code": "KeyO",
+    "dwell": 760,
+    "flight": 157,
+    "timestamp": 174047
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 51,
+    "flight": 354,
+    "timestamp": 175161
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 81,
+    "flight": 137,
+    "timestamp": 175349
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 48,
+    "flight": 37,
+    "timestamp": 175467
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 43,
+    "flight": 139,
+    "timestamp": 175654
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 71,
+    "flight": 465,
+    "timestamp": 176162
+  },
+  {
+    "key": "u",
+    "code": "KeyU",
+    "dwell": 60,
+    "flight": 39,
+    "timestamp": 176272
+  },
+  {
+    "key": "t",
+    "code": "KeyT",
+    "dwell": 86,
+    "flight": 192,
+    "timestamp": 176524
+  },
+  {
+    "key": "h",
+    "code": "KeyH",
+    "dwell": 68,
+    "flight": 131,
+    "timestamp": 176741
+  },
+  {
+    "key": "e",
+    "code": "KeyE",
+    "dwell": 72,
+    "flight": 586,
+    "timestamp": 177395
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 558,
+    "flight": 29,
+    "timestamp": 177496
+  },
+  {
+    "key": " ",
+    "code": "Space",
+    "dwell": 62,
+    "flight": 412,
+    "timestamp": 178466
+  },
+  {
+    "key": "h",
+    "code": "KeyH",
+    "dwell": 58,
+    "flight": 821,
+    "timestamp": 179349
+  },
+  {
+    "key": "u",
+    "code": "KeyU",
+    "dwell": 192,
+    "flight": 52,
+    "timestamp": 179459
+  },
+  {
+    "key": "a",
+    "code": "KeyA",
+    "dwell": 93,
+    "flight": 140,
+    "timestamp": 179791
+  },
+  {
+    "key": "n",
+    "code": "KeyN",
+    "dwell": 58,
+    "flight": 229,
+    "timestamp": 179880
+  }
+]

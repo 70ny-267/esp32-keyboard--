@@ -1,0 +1,124 @@
+<view class="container">
+  <!-- 顶部蓝牙连接卡片 -->
+  <view class="card conn-card">
+    <view class="conn-header">
+      <view class="conn-status">
+        <view class="status-dot {{connected ? 'dot-online' : 'dot-offline'}}"></view>
+        <text class="status-text">{{connected ? '已连接: AutoTyping-BLE' : '蓝牙未连接'}}</text>
+      </view>
+      <button class="btn-conn {{connected ? 'btn-disconnect' : 'btn-connect'}}" bindtap="toggleConnect">
+        {{connected ? '断开' : (searching ? '搜索中...' : '一键连接')}}
+      </button>
+    </view>
+    <view class="conn-hint" wx:if="{{!connected}}">
+      请确保手机蓝牙已打开，且开发板已插在电脑上
+    </view>
+  </view>
+
+  <!-- 文本输入与剪贴板卡片 -->
+  <view class="card input-card">
+    <view class="card-title-row">
+      <text class="card-title">待输入文本</text>
+      <text class="char-count">{{inputText.length}} 字符</text>
+    </view>
+    <textarea 
+      class="text-area" 
+      placeholder="在此粘贴或输入需要电脑打出的文本内容..." 
+      value="{{inputText}}" 
+      bindinput="onTextInput"
+      maxlength="5000"
+    ></textarea>
+    <view class="clipboard-bar">
+      <button class="btn-paste" bindtap="pasteClipboard">📋 一键粘贴剪贴板</button>
+      <button class="btn-clear" bindtap="clearInput">清空</button>
+    </view>
+  </view>
+
+  <!-- 防检测速率预设面板 -->
+  <view class="card preset-card">
+    <view class="card-title">防检测击键速率预设</view>
+    <view class="preset-grid">
+      <!-- 0: 我的专属 (独占全行高亮) -->
+      <view 
+        class="preset-item preset-vip {{selectedPreset === 0 ? 'preset-vip-active' : ''}}" 
+        bindtap="selectPreset" 
+        data-index="0"
+      >
+        <view class="preset-top-row">
+          <text class="preset-name">👑 我的专属节奏</text>
+          <text class="preset-badge">最高防检测</text>
+        </view>
+        <text class="preset-desc">~14 WPM (完全加载你测量的 82 组肌肉记忆与停顿指纹)</text>
+      </view>
+
+      <!-- 1: 沉稳严谨 -->
+      <view 
+        class="preset-item {{selectedPreset === 1 ? 'preset-active' : ''}}" 
+        bindtap="selectPreset" 
+        data-index="1"
+      >
+        <text class="preset-name">沉稳严谨</text>
+        <text class="preset-desc">~22 WPM (0.8% 微手误)</text>
+      </view>
+
+      <!-- 2: 日常自然 -->
+      <view 
+        class="preset-item {{selectedPreset === 2 ? 'preset-active' : ''}}" 
+        bindtap="selectPreset" 
+        data-index="2"
+      >
+        <text class="preset-name">日常自然</text>
+        <text class="preset-desc">~38 WPM (办公室常态)</text>
+      </view>
+
+      <!-- 3: 流畅熟练 -->
+      <view 
+        class="preset-item {{selectedPreset === 3 ? 'preset-active' : ''}}" 
+        bindtap="selectPreset" 
+        data-index="3"
+      >
+        <text class="preset-name">流畅熟练</text>
+        <text class="preset-desc">~52 WPM (词内肌肉爆发)</text>
+      </view>
+
+      <!-- 4: 极速爆发 -->
+      <view 
+        class="preset-item {{selectedPreset === 4 ? 'preset-active' : ''}}" 
+        bindtap="selectPreset" 
+        data-index="4"
+      >
+        <text class="preset-name">极速爆发</text>
+        <text class="preset-desc">~70 WPM (物理安全极限)</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 操作控制按钮区域 -->
+  <view class="action-section">
+    <button class="btn-main-send" bindtap="startTyping" disabled="{{!connected || !inputText.length}}">
+      🚀 发送并在电脑上打字
+    </button>
+    <view class="btn-ctrl-row">
+      <button class="btn-ctrl btn-pause" bindtap="pauseTyping" disabled="{{!connected}}">
+        ⏸️ 暂停 (或按板载BOOT)
+      </button>
+      <button class="btn-ctrl btn-resume" bindtap="resumeTyping" disabled="{{!connected}}">
+        ▶️ 继续
+      </button>
+    </view>
+    <button class="btn-stop" bindtap="stopTyping" disabled="{{!connected}}">
+      ⏹️ 紧急中止
+    </button>
+  </view>
+
+  <!-- 实时状态反馈面板 -->
+  <view class="card log-card" wx:if="{{logs.length > 0}}">
+    <view class="card-title">硬件状态实时回传</view>
+    <scroll-view class="log-scroll" scroll-y="true">
+      <view class="log-line" wx:for="{{logs}}" wx:key="index">
+        <text class="log-time">{{item.time}}</text>
+        <text class="log-content">{{item.msg}}</text>
+      </view>
+    </scroll-view>
+  </view>
+</view>

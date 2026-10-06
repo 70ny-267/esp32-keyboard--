@@ -1,0 +1,281 @@
+.container {
+  padding: 16px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.card {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  border: 1px solid #334155;
+}
+
+.card-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #f8fafc;
+  display: block;
+}
+
+.char-count {
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+/* 蓝牙卡片 */
+.conn-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.conn-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.dot-online {
+  background-color: #22c55e;
+  box-shadow: 0 0 8px #22c55e;
+}
+
+.dot-offline {
+  background-color: #94a3b8;
+}
+
+.status-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.conn-hint {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #64748b;
+}
+
+.btn-conn {
+  margin: 0;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 20px;
+  line-height: 1.5;
+}
+
+.btn-connect {
+  background: #0284c7;
+  color: #ffffff;
+}
+
+.btn-disconnect {
+  background: #475569;
+  color: #cbd5e1;
+}
+
+/* 文本卡片 */
+.text-area {
+  width: 100%;
+  height: 130px;
+  background: #090d16;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  color: #f8fafc;
+  padding: 10px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.clipboard-bar {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn-paste {
+  flex: 3;
+  background: #0284c7;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px;
+  border-radius: 6px;
+  line-height: 1.5;
+}
+
+.btn-clear {
+  flex: 1;
+  background: #334155;
+  color: #94a3b8;
+  font-size: 13px;
+  padding: 8px;
+  border-radius: 6px;
+  line-height: 1.5;
+}
+
+/* 预设卡片 */
+.preset-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.preset-item {
+  background: #090d16;
+  border: 1.5px solid #334155;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.2s;
+}
+
+.preset-vip {
+  grid-column: span 2;
+  border-color: #d97706;
+  background: rgba(217, 119, 6, 0.08);
+}
+
+.preset-vip-active {
+  border-color: #f59e0b;
+  background: rgba(245, 158, 11, 0.16);
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.2);
+}
+
+.preset-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.preset-badge {
+  font-size: 10px;
+  background: #d97706;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.preset-active {
+  border-color: #38bdf8;
+  background: rgba(56, 189, 248, 0.08);
+}
+
+.preset-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #f8fafc;
+}
+
+.preset-vip .preset-name {
+  color: #fbbf24;
+}
+
+.preset-active .preset-name {
+  color: #38bdf8;
+}
+
+.preset-desc {
+  font-size: 11px;
+  color: #94a3b8;
+  margin-top: 4px;
+}
+
+/* 操作按钮区 */
+.action-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-main-send {
+  background: #16a34a;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(22, 163, 74, 0.3);
+}
+
+.btn-main-send[disabled] {
+  background: #334155 !important;
+  color: #64748b !important;
+}
+
+.btn-ctrl-row {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-ctrl {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.btn-pause {
+  background: #eab308;
+  color: #000;
+}
+
+.btn-resume {
+  background: #0ea5e9;
+  color: white;
+}
+
+.btn-stop {
+  background: #dc2626;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+/* 实时日志卡片 */
+.log-card {
+  padding: 12px;
+}
+
+.log-scroll {
+  max-height: 120px;
+  margin-top: 8px;
+}
+
+.log-line {
+  font-family: monospace;
+  font-size: 12px;
+  color: #94a3b8;
+  line-height: 1.5;
+  border-bottom: 1px dashed #334155;
+  padding: 3px 0;
+}
+
+.log-time {
+  color: #64748b;
+  margin-right: 6px;
+}

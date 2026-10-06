@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# WeChat Mini Program private user settings
+miniprogram/project.private.config.json
+
+# Build outputs
+build/
+*.bin
+*.hex
+*.elf

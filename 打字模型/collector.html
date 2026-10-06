@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>个人打字生物特征采集器</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      margin: 0;
+      padding: 30px 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      width: 100%;
+      max-width: 820px;
+      background: #1e293b;
+      padding: 32px;
+      border-radius: 14px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 24px;
+      color: #38bdf8;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .desc {
+      color: #94a3b8;
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .stats-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .stat-card {
+      background: #0f172a;
+      padding: 12px 16px;
+      border-radius: 8px;
+      border: 1px solid #334155;
+      text-align: center;
+    }
+    .stat-val {
+      font-size: 22px;
+      font-weight: 700;
+      color: #f8fafc;
+    }
+    .stat-lbl {
+      font-size: 12px;
+      color: #64748b;
+      margin-top: 4px;
+    }
+    .sample-box {
+      background: #090d16;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      padding: 16px;
+      font-family: "SF Mono", Menlo, Consolas, monospace;
+      font-size: 15px;
+      line-height: 1.7;
+      color: #64748b;
+      user-select: none;
+      margin-bottom: 16px;
+      max-height: 160px;
+      overflow-y: auto;
+    }
+    .sample-box .highlight {
+      color: #38bdf8;
+      background: rgba(56, 189, 248, 0.1);
+      border-radius: 3px;
+    }
+    .sample-box .done {
+      color: #22c55e;
+    }
+    textarea {
+      width: 100%;
+      height: 150px;
+      background: #090d16;
+      border: 1.5px solid #38bdf8;
+      border-radius: 8px;
+      color: #f8fafc;
+      font-family: "SF Mono", Menlo, Consolas, monospace;
+      font-size: 16px;
+      line-height: 1.6;
+      padding: 14px;
+      resize: vertical;
+      outline: none;
+    }
+    textarea:focus {
+      border-color: #0ea5e9;
+      box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.2);
+    }
+    .btn-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+    }
+    button {
+      background: #0284c7;
+      color: white;
+      border: none;
+      padding: 12px 28px;
+      font-size: 15px;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    button:hover { background: #0369a1; }
+    button:disabled { background: #475569; cursor: not-allowed; }
+    .status-msg {
+      font-size: 14px;
+      color: #38bdf8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>⌨️ 个人打字生物特征采集器</h1>
+    <div class="desc">
+      请在下方输入框中自然打字（可照抄参考范文，也可以随意自由输入英文）。系统会通过浏览器高精度时钟（微秒级）记录你每一个按键的按下时长（Dwell Time）和键间转移间隔（Flight Time）。输入约 100~200 个单词效果最佳。
+    </div>
+
+    <div class="stats-bar">
+      <div class="stat-card">
+        <div class="stat-val" id="wpmVal">0</div>
+        <div class="stat-lbl">实时打字速度 (WPM)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val" id="charCount">0</div>
+        <div class="stat-lbl">已击键总次数</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val" id="avgDwell">0 ms</div>
+        <div class="stat-lbl">平均按键保持 (Dwell)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val" id="avgFlight">0 ms</div>
+        <div class="stat-lbl">平均键间间隔 (Flight)</div>
+      </div>
+    </div>
+
+    <div class="sample-box" id="samplePrompt">
+The quick brown fox jumps over the lazy dog. Technology improves rapidly as artificial intelligence systems become more personalized. When typing on a physical keyboard, every person develops a unique cadence shaped by hand size, finger agility, and muscle memory. Some words are typed in rapid bursts, while punctuation and unfamiliar words introduce natural micro-pauses. By recording these micro-rhythms, an autonomous device can reproduce an authentic human typing footprint without mechanical uniformity.
+    </div>
+
+    <textarea id="typingArea" placeholder="点击这里，用你平时的自然节奏输入上述英文（或者随意打一段你想写的内容）..."></textarea>
+
+    <div class="btn-row">
+      <span class="status-msg" id="statusMsg">准备就绪，请直接开始输入</span>
+      <button id="submitBtn" onclick="submitData()">完成并训练专属模型</button>
+    </div>
+  </div>
+
+  <script>
+    const events = [];
+    const activeKeys = new Map(); // key -> down_timestamp
+    let startTime = null;
+    let lastKeyUpTime = null;
+
+    const textarea = document.getElementById("typingArea");
+    const wpmVal = document.getElementById("wpmVal");
+    const charCount = document.getElementById("charCount");
+    const avgDwell = document.getElementById("avgDwell");
+    const avgFlight = document.getElementById("avgFlight");
+    const statusMsg = document.getElementById("statusMsg");
+    const submitBtn = document.getElementById("submitBtn");
+
+    textarea.addEventListener("keydown", (e) => {
+      const now = performance.now();
+      if (!startTime) startTime = now;
+
+      // 避免按住不放触发重复事件
+      if (e.repeat) return;
+
+      const code = e.code;
+      const key = e.key;
+
+      let flight = 0;
+      if (lastKeyUpTime !== null) {
+        flight = now - lastKeyUpTime;
+      }
+
+      activeKeys.set(code, {
+        key: key,
+        code: code,
+        downTime: now,
+        flight: flight
+      });
+    });
+
+    textarea.addEventListener("keyup", (e) => {
+      const now = performance.now();
+      const code = e.code;
+
+      if (activeKeys.has(code)) {
+        const item = activeKeys.get(code);
+        activeKeys.delete(code);
+
+        const dwell = now - item.downTime;
+        lastKeyUpTime = now;
+
+        events.push({
+          key: item.key,
+          code: item.code,
+          dwell: Math.round(dwell * 100) / 100,
+          flight: Math.round(item.flight * 100) / 100,
+          timestamp: Math.round(item.downTime * 100) / 100
+        });
+
+        updateLiveStats(now);
+      }
+    });
+
+    function updateLiveStats(now) {
+      charCount.innerText = events.length;
+
+      // 计算平均 Dwell
+      const totalDwell = events.reduce((acc, cur) => acc + cur.dwell, 0);
+      avgDwell.innerText = Math.round(totalDwell / events.length) + " ms";
+
+      // 计算平均 Flight (排除最前一个)
+      const validFlights = events.slice(1).map(e => e.flight).filter(f => f > 0 && f < 3000);
+      if (validFlights.length > 0) {
+        const totalFlight = validFlights.reduce((acc, cur) => acc + cur, 0);
+        avgFlight.innerText = Math.round(totalFlight / validFlights.length) + " ms";
+      }
+
+      // 计算实时 WPM
+      const elapsedMin = (now - startTime) / 60000;
+      if (elapsedMin > 0.05) {
+        const currentWpm = Math.round((events.length / 5) / elapsedMin);
+        wpmVal.innerText = currentWpm;
+      }
+
+      if (events.length > 80) {
+        statusMsg.innerText = `数据已充足（当前已记录 ${events.length} 次击键），可随时点击完成`;
+        statusMsg.style.color = "#4ade80";
+      } else {
+        statusMsg.innerText = `正在采集击键数据：已记录 ${events.length} 次（建议不少于 80 次）`;
+      }
+    }
+
+    async function submitData() {
+      if (events.length < 30) {
+        alert("采集数据较少（当前只有 " + events.length + " 个击键），请继续输入一段文本以保证模型精度！");
+        return;
+      }
+
+      submitBtn.disabled = true;
+      submitBtn.innerText = "正在训练模型...";
+      statusMsg.innerText = "数据上传中，服务端正在训练你的个人指纹模型...";
+
+      try {
+        const response = await fetch("/api/save_sample", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            events: events,
+            textLength: textarea.value.length
+          })
+        });
+
+        const result = await response.json();
+        if (result.success) {
+          statusMsg.innerText = "🎉 模型训练成功！已生成专属 user_profile.json，请查看终端输出。";
+          statusMsg.style.color = "#22c55e";
+          submitBtn.innerText = "训练完成";
+        } else {
+          statusMsg.innerText = "训练失败: " + result.error;
+          submitBtn.disabled = false;
+        }
+      } catch (err) {
+        statusMsg.innerText = "网络请求失败，请确保本地服务器正在运行。";
+        submitBtn.disabled = false;
+      }
+    }
+  </script>
+</body>
+</html>

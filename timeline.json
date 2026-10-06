@@ -1,0 +1,146 @@
+[
+  {
+    "char": "H",
+    "shift": true,
+    "dwell": 111.25,
+    "flight": 172.76,
+    "typo": false,
+    "bs": false
+  },
+  {
+    "char": "e",
+    "shift": false,
+    "dwell": 99.16,
+    "flight": 51.32,
+    "typo": false,
+    "bs": false
+  },
+  {
+    "char": "l",
+    "shift": false,
+    "dwell": 63.15,
+    "flight": 61.29,
+    "typo": false,
+    "bs": false
+  },
+  {
+    "char": "l",
+    "shift": false,
+    "dwell": 101.54,
+    "flight": 108.85,
+    "typo": false,
+    "bs": false
+  },
+  {
+    "char": "o",
+    "shift": false,
+    "dwell": 89.64,
+    "flight": 105.53,
+    "typo": false,
+    "bs": false
+  },
+  {
+    "char": " ",
+    "shift": false,
+    "dwell": 103.14,
+    "flight": 70.72,
+    "typo": false,
+    "bs": false
+  },
+  {
+    "char": "3",
+    "shift": false,
+    "dwell": 66.68,
+    "flight": 82.08,
+    "typo": true,
+    "bs": false
+  },
+  {
+    "char": "[Backspace]",
+    "shift": false,
+    "dwell": 86.5,
+    "flight": 228.44,
+    "typo": false,
+    "bs": true
+  },
+  {
+    "char": "W",
+    "shift": true,
+    "dwell": 91.43,
+    "flight": 154.8,
+    "typo": false,
+    "bs": false
+  },
+  {
+    "char": "o",
+    "shift": false,
+    "dwell": 89.95,
+    "flight": 95.01,
+    "typo": false,
+    "bs": false
+  },
+  {
+    "char": "r",
+    "shift": false,
+    "dwell": 101.05,
+    "flight": 55.79,
+    "typo": false,
+    "bs": false
+  },
+  {
+    "char": ";",
+    "shift": false,
+    "dwell": 72.67,
+    "flight": 92.14,
+    "typo": true,
+    "bs": false
+  },
+  {
+    "char": "[Backspace]",
+    "shift": false,
+    "dwell": 97.6,
+    "flight": 313.05,
+    "typo": false,
+    "bs": true
+  },
+  {
+    "char": "l",
+    "shift": false,
+    "dwell": 70.92,
+    "flight": 127.82,
+    "typo": false,
+    "bs": false
+  },
+  {
+    "char": "c",
+    "shift": false,
+    "dwell": 82.01,
+    "flight": 70.75,
+    "typo": true,
+    "bs": false
+  },
+  {
+    "char": "[Backspace]",
+    "shift": false,
+    "dwell": 90.33,
+    "flight": 230.21,
+    "typo": false,
+    "bs": true
+  },
+  {
+    "char": "d",
+    "shift": false,
+    "dwell": 107.72,
+    "flight": 121.07,
+    "typo": false,
+    "bs": false
+  },
+  {
+    "char": "!",
+    "shift": true,
+    "dwell": 65.88,
+    "flight": 37.78,
+    "typo": false,
+    "bs": false
+  }
+]
